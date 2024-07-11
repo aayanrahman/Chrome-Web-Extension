@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Random Font Size Changer",
+  "version": "1.0",
+  "description": "Randomly changes font sizes on websites.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
